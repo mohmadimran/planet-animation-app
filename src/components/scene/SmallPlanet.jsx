@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { Html } from "@react-three/drei";
 
-export default function SmallPlanet({ name, color = "#ffd36b", radius = 0.25, angle = 0, dist = 10 }) {
+export default function SmallPlanet({color = "#ffd36b", radius = 0.25, angle = 0, dist = 10 }) {
   const ref = useRef();
   useFrame(({ clock }) => {
     const t = clock.getElapsedTime() * 0.2;
@@ -20,7 +20,7 @@ export default function SmallPlanet({ name, color = "#ffd36b", radius = 0.25, an
       </mesh>
 
       <Html distanceFactor={10} position={[0, radius + 0.2, 0]}>
-        <div style={{ color: "#fff", fontSize: 11, pointerEvents: "none", whiteSpace: "nowrap" }}>{name}</div>
+        <div style={{ color: "#fff", fontSize: 11, pointerEvents: "none", whiteSpace: "nowrap" }}></div>
       </Html>
     </group>
   );
