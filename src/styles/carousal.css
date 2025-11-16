@@ -18,12 +18,12 @@ body, html, #root {
   position: relative;
 }
 
-.planet-title {
+/* .planet-title {
   text-align: center;
   font-size: 48px;
   letter-spacing: 8px;
   margin-top: 40px;
-}
+} */
 
 .info-grid {
   display: flex;

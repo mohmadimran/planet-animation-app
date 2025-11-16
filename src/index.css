@@ -1,45 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap");
 
-:root{
-  --bg-start: #071228;
-  --bg-end: #000811;
-  --muted: rgba(255,255,255,0.35);
-  --text: rgba(255,255,255,0.95);
+* {
+  box-sizing: border-box;
+   fontfamily: "Satoshi, sans-serif";
 }
-
-*{box-sizing:border-box}
-html,body,#root{height:100%}
-body{
-  margin:0;
-  width:100%;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  background: radial-gradient(ellipse at center, var(--bg-start) 0%, var(--bg-end) 60%);
-  color: var(--text);
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  width: 100%;
   overflow-x: hidden;
 }
 
-.brand { font-weight:600; letter-spacing:0.14em; color:rgba(255,255,255,0.92) }
+.brand {
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.92);
+}
 
-.hero { padding-top:92px; text-align:center; pointer-events: none; }
-.hero-title {
-  font-size:64px; letter-spacing:0.34em; margin:6px 0; color:var(--text);
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 18px;
   pointer-events: auto;
 }
-.stats {
-  display:flex; justify-content:center; gap:64px; margin-top:18px; pointer-events: auto;
+.stat .label {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.12em;
 }
-.stat .label { color:var(--muted); font-size:12px; letter-spacing:0.12em; }
-.stat .value { margin-top:6px; font-size:16px; }
+.stat .value {
+  margin-top: 6px;
+  font-size: 16px;
+}
 
-.canvas-shell { width:100%; height:100%; position:relative; top:-100px }
+.canvas-shell {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -150px;
+}
 
-button:focus{ outline:none }
+button:focus {
+  outline: none;
+}
 
 /* responsive */
-@media (max-width:900px){
-  .hero-title { font-size:36px; }
-  .stats { gap:24px; flex-wrap:wrap; }
-  .nav { padding:12px 24px; }
-} 
+@media (max-width: 900px) {
+  .hero-title {
+    font-size: 36px;
+  }
+  .stats {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .nav {
+    padding: 12px 24px;
+  }
+}
