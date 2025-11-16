@@ -6,7 +6,7 @@ import { PLANETS } from "../data/Planets";
 export default function PlanetCarousel({ onPlanetChange }) {
   const [index, setIndex] = useState(0);
 
-  // AUTO PLAY CAROUSEL EVERY 3 SECONDS
+  // AUTO PLAY CAROUSEL 
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => {
@@ -14,7 +14,7 @@ export default function PlanetCarousel({ onPlanetChange }) {
         onPlanetChange(PLANETS[next].gradient); // send gradient to parent
         return next;
       });
-    }, 5000);
+    }, 10000);
     // send initial gradient
     onPlanetChange(PLANETS[0].gradient);
 

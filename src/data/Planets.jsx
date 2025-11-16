@@ -14,7 +14,7 @@ export const PLANETS = [
     climate: "Tropical",
     image: lumenara,
     gradient:
-      "linear-gradient(90.64deg, rgba(255, 153, 0, 0.3) 3.06%, rgba(255, 203, 18, 0.3) 70.17%, rgba(146, 27, 188, 0.3) 75.86%)",
+      "linear-gradient(90.64deg, rgba(255, 153, 0, 0.1) 3.06%, rgba(255, 203, 18, 0.1) 70.17%, rgba(146, 27, 188, 0.1) 75.86%)",
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ export const PLANETS = [
     climate: "Tropical",
     image: theronix,
     gradient:
-      "linear-gradient(90.64deg, rgba(255, 153, 0, 0.7) 3.06%, rgba(5, 67, 37, 0.7) 3.06%, rgba(5, 67, 26, 0.7) 70.17%)",
+      "linear-gradient(90.64deg, rgba(255, 153, 0, 0.1) 3.06%, rgba(5, 67, 37, 0.1) 3.06%, rgba(5, 67, 26, 0.1) 70.17%)",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ export const PLANETS = [
     climate: "Temperate",
     image: orionis,
     gradient:
-      "linear-gradient(90.64deg, rgba(5, 37, 67, 0.7) 3.06%, rgba(9, 66, 133, 0.7) 70.17%)",
+      "linear-gradient(90.64deg, rgba(5, 37, 67, 0.1) 3.06%, rgba(9, 66, 133, 0.1) 70.17%)",
   },
   {
     id: 3,
@@ -50,6 +50,6 @@ export const PLANETS = [
     climate: "Polar",
     image: etheron,
     gradient:
-      "linear-gradient(90.64deg, rgba(82, 0, 255, 0.5) 3.06%, rgba(146, 27, 188, 0.5) 75.86%)",
+      "linear-gradient(90.64deg, rgba(82, 0, 255, 0.1) 3.06%, rgba(146, 27, 188, 0.1) 75.86%)",
   },
 ];

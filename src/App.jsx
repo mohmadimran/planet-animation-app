@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Container
       sx={{
-        height: "100%",
+        height: "150vh",
         display: "flex",
         flexDirection: "column",
         background: bgGradient,
