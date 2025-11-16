@@ -6,7 +6,7 @@ import { PLANETS } from "../data/Planets";
 export default function PlanetCarousel({ onPlanetChange }) {
   const [index, setIndex] = useState(0);
 
-  // AUTO PLAY CAROUSEL 
+  // AUTO PLAY CAROUSEL
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prev) => {
@@ -37,7 +37,6 @@ export default function PlanetCarousel({ onPlanetChange }) {
 
   return (
     <div className="carousel-shell">
-
       {/* Dynamic Planet Info */}
       <PlanetInfo info={PLANETS[index]} />
 
@@ -48,17 +47,19 @@ export default function PlanetCarousel({ onPlanetChange }) {
 
           return (
             <>
-            <div
-              key={i}
-              className="carousel-item"
-              style={{
-                transform: `translateX(${diff * 300}px) scale(${isCenter ? 1.3 : 0.7})`,
-                opacity: isCenter ? 1 : 0.5,
-                transition: "0.7s cubic-bezier(.62,.1,.32,1.2)",
-              }}
-            >
-              <PlanetCard src={planet.image} isCenter={isCenter} />
-            </div>
+              <div
+                key={i}
+                className="carousel-item"
+                style={{
+                  transform: `translateX(${diff * 300}px) scale(${
+                    isCenter ? 1.3 : 0.7
+                  })`,
+                  opacity: isCenter ? 1 : 0.5,
+                  transition: "2s ease-in-out",
+                }}
+              >
+                <PlanetCard src={planet.image} isCenter={isCenter} />
+              </div>
             </>
           );
         })}
@@ -66,4 +67,3 @@ export default function PlanetCarousel({ onPlanetChange }) {
     </div>
   );
 }
-

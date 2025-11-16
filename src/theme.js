@@ -1,13 +1,6 @@
 import { createTheme } from "@mui/material/styles";
 
 const theme = createTheme({
-  // Typography overrides
-  palette: {
-    background: {
-      default: "black",
-    },
-  },
-
   typography: {
     fontFamily: '"Satoshi", "Roboto", "Helvetica", "Arial", sans-serif',
     h1: {
@@ -51,7 +44,8 @@ const theme = createTheme({
       fontSize: "27.17px",
       lineHeight: "100%",
       letterSpacing: "0%",
-      textAlign: "center"
+      textAlign: "center",
+      color:"#FFFFFFE5"
     },
     subtitle1: {
       fontFamily: "Satoshi",

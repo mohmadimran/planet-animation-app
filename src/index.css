@@ -2,16 +2,12 @@
 
 * {
   box-sizing: border-box;
-   fontfamily: "Satoshi, sans-serif";
-}
-html,
-body,
-#root {
-  height: 100%;
+  fontfamily: "Satoshi, sans-serif";
+  margin: 0;
+  padding: 0;
 }
 body {
   margin: 0;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -20,7 +16,6 @@ body {
   letter-spacing: 0.14em;
   color: rgba(255, 255, 255, 0.92);
 }
-
 
 .stats {
   display: flex;

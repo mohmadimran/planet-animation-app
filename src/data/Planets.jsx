@@ -13,8 +13,7 @@ export const PLANETS = [
     temperature: "10°C to 30°C",
     climate: "Tropical",
     image: lumenara,
-    gradient:
-      "linear-gradient(90.64deg, rgba(255, 153, 0, 0.1) 3.06%, rgba(255, 203, 18, 0.1) 70.17%, rgba(146, 27, 188, 0.1) 75.86%)",
+    gradient: "linear-gradient(90deg, #21273C 0%, #0F1420 100%)",
   },
   {
     id: 1,
@@ -25,8 +24,8 @@ export const PLANETS = [
     temperature: "60°C to 90°C",
     climate: "Tropical",
     image: theronix,
-    gradient:
-      "linear-gradient(90.64deg, rgba(255, 153, 0, 0.1) 3.06%, rgba(5, 67, 37, 0.1) 3.06%, rgba(5, 67, 26, 0.1) 70.17%)",
+    gradient:"linear-gradient(90deg, #19283D 0%, #0B1420 100%)",
+
   },
   {
     id: 2,
@@ -37,8 +36,8 @@ export const PLANETS = [
     temperature: "10°C to 40°C",
     climate: "Temperate",
     image: orionis,
-    gradient:
-      "linear-gradient(90.64deg, rgba(5, 37, 67, 0.1) 3.06%, rgba(9, 66, 133, 0.1) 70.17%)",
+       gradient: "linear-gradient(90deg, #1B2846 0%, #0A1020 100%)",
+
   },
   {
     id: 3,
@@ -49,7 +48,7 @@ export const PLANETS = [
     temperature: "-20°C to 0°C",
     climate: "Polar",
     image: etheron,
-    gradient:
-      "linear-gradient(90.64deg, rgba(82, 0, 255, 0.1) 3.06%, rgba(146, 27, 188, 0.1) 75.86%)",
+    gradient: "linear-gradient(90deg, #202649 0%, #0A1020 100%)",
+
   },
 ];

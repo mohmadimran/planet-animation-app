@@ -24,7 +24,6 @@ export default function Navbar() {
         position="fixed"
         sx={{
           background: "transparent",
-          backdropFilter: "blur(8px)",
           boxShadow: "none",
           px: { xs: 2, md: 8 },
           py: 1.5,
