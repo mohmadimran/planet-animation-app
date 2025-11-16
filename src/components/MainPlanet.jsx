@@ -14,7 +14,7 @@ export default function PlanetCarousel({ onPlanetChange }) {
         onPlanetChange(PLANETS[next].gradient); // send gradient to parent
         return next;
       });
-    }, 10000);
+    }, 5000);
     // send initial gradient
     onPlanetChange(PLANETS[0].gradient);
 

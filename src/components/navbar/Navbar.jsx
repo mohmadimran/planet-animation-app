@@ -21,7 +21,6 @@ export default function Navbar() {
     <>
       {/* TOP NAV */}
       <AppBar
-        position="fixed"
         sx={{
           background: "transparent",
           boxShadow: "none",
