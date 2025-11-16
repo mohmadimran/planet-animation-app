@@ -1,5 +1,6 @@
-Planet Animation App 🌌
-[![Live Demo](https://planet-animation-app.vercel.)]
+Planet Animation App 
+[Live Demo](https://planet-animation-app.vercel.app)
+
 A stunning 3D planet animation application built with React, Three.js, and modern web technologies.
 
 🚀 Features
