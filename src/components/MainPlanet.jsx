@@ -55,7 +55,7 @@ export default function PlanetCarousel({ onPlanetChange }) {
                     isCenter ? 1.3 : 0.7
                   })`,
                   opacity: isCenter ? 1 : 0.5,
-                  transition: "2s ease-in-out",
+                  transition: "2.5s ease-in-out",
                 }}
               >
                 <PlanetCard src={planet.image} isCenter={isCenter} />
